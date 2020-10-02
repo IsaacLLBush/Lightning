@@ -3,7 +3,7 @@ int endY;
 int startX;
 int startY;
 void setup() {
-size((int)(0.9*window.innerWidth), (int)(0.9*window.innerHeight)); 
+size((int)(0.95*window.innerWidth), (int)(0.95*window.innerHeight)); 
   background(10,10,10);
   strokeWeight(5);
   startX=width/2;
