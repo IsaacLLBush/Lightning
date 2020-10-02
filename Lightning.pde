@@ -3,7 +3,7 @@ int endY;
 int startX;
 int startY;
 void setup() {
-  size($(window).width(),$(window).height());
+  size(1000,1000);
   background(10,10,10);
   strokeWeight(5);
   startX=width/2;
