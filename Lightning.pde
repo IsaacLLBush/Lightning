@@ -39,4 +39,5 @@ void keyPressed() {
 1.0.1: added ability to clear screen, made the lightning be able to start in the center 50% of the width
 1.0.2: decrease size of window
 1.0.3: autosize to window
+1.0.4: autosize better (so that there's room for the scrollbar)
 **/
