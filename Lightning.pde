@@ -3,7 +3,7 @@ int endY;
 int startX;
 int startY;
 void setup() {
-size(window.innerWidth, window.innerHeight); 
+size((int)(0.9*window.innerWidth), (int)(0.9*window.innerHeight)); 
   background(10,10,10);
   strokeWeight(5);
   startX=width/2;
@@ -38,4 +38,5 @@ void keyPressed() {
 /**CHANGELOG
 1.0.1: added ability to clear screen, made the lightning be able to start in the center 50% of the width
 1.0.2: decrease size of window
+1.0.3: autosize to window
 **/
