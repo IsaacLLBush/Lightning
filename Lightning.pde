@@ -3,7 +3,7 @@ int endY;
 int startX;
 int startY;
 void setup() {
-  size(1000,1000);
+  size(1000,750);
   background(10,10,10);
   strokeWeight(5);
   startX=width/2;
@@ -35,4 +35,7 @@ void keyPressed() {
   }
 }
 
-//v1.0.1: added ability to clear screen, made the lightning be able to start in the center 50% of the width
+/**CHANGELOG
+1.0.1: added ability to clear screen, made the lightning be able to start in the center 50% of the width
+1.0.2: decrease size of window
+**/
