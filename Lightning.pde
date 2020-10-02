@@ -3,7 +3,7 @@ int endY;
 int startX;
 int startY;
 void setup() {
-  size(500,500);
+  size(1000,1000);
   background(10,10,10);
   strokeWeight(5);
   startX=width/2;
@@ -24,7 +24,7 @@ void draw() {
 }
 void mousePressed() {
   strokeWeight((float)(Math.random()*5));
-  startX=(int)(width*Math.random());
+  startX=(width/4)+(int)((width/2)*Math.random());
   startY=0;
   endX=width/2;
   endY=0;
@@ -34,3 +34,5 @@ void keyPressed() {
       background(10,10,10);
   }
 }
+
+//v1.0.1: added ability to clear screen, made the lightning be able to start in the center 50% of the width
